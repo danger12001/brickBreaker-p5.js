@@ -129,8 +129,8 @@ function speed(){
   } else{
     xdirection = 1;
   }
-  xspeed = (1+asin(((pX+brickWidth/2)-ballx)/(pX+(brickWidth/2)-pX)))/2;
-  yspeed = (1+acos(((pX+brickWidth/2)-ballx)/(pX+(brickWidth/2)-pX)))/2;
+  xspeed += (1+asin(((pX+brickWidth/2)-ballx)/(pX+(brickWidth/2)-pX)))/2;
+  yspeed += (1+acos(((pX+brickWidth/2)-ballx)/(pX+(brickWidth/2)-pX)))/2;
 
 }
 
